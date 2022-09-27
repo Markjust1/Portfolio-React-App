@@ -8,6 +8,7 @@ function Project(props) {
       <div>{props.name}</div>
       <div>{props.image}</div>
       <p>{props.description}</p>
+      <div>{props.tech}</div>
     </div>
   );
 }
