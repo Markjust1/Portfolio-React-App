@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: bisque;
+
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav h4 {
+  padding: 1rem;
+}
+
+.nav h2 {
+  padding: 1rem;
+}
