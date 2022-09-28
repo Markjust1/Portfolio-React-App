@@ -1,4 +1,13 @@
 .project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
   margin: 2rem;
-  
+  border: black dotted 2px;
+  width: 70vw;
+  height: 60vh;
+  border-radius: 3px;
+  background-color: rgba(233, 150, 122, 0.424);
+  border-radius: 4px;
 }

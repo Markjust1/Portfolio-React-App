@@ -7,8 +7,8 @@ function Project(props) {
     <div className="project">
       <div>{props.name}</div>
       <div>{props.image}</div>
-      <p>{props.description}</p>
-      <div>{props.tech}</div>
+      <div>Description{props.description}</div>
+      <div>Tech Stack: {props.tech}</div>
     </div>
   );
 }

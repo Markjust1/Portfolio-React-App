@@ -1,5 +1,8 @@
 .project-list {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   background-color: blanchedalmond;
-  margin: 2rem;
+  margin: 2em;
+  align-content: center;
 }
