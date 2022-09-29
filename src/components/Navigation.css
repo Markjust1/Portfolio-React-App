@@ -3,8 +3,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: bisque;
-  border: rgb(226, 162, 84) 3px;
+  background-color: rgba(253, 253, 253, 0.652);
+  border: solid rgba(0, 0, 0, 0.307) 3px;
 }
 
 .nav-items {

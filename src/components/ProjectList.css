@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-color: blanchedalmond;
   margin: 2em;
   align-content: center;
 }
