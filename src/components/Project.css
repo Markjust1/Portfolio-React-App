@@ -21,6 +21,14 @@
   border: 1px solid black;
   padding: 1rem;
 }
+.image img {
+  /* width: 30vw; */
+  height: 25vw;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: gray;
+}
 .description {
   flex-grow: 2;
   padding: 1rem;
@@ -28,4 +36,8 @@
 .tech {
   flex-grow: 0.5;
   padding: 1rem;
+}
+.proj_desc {
+  display: flex;
+  flex-direction: row;
 }
