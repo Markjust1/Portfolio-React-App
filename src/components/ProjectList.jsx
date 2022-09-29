@@ -1,30 +1,30 @@
 import Project from "./Project";
-import "./ProjectList.css"
+import "./ProjectList.css";
 
 const projects = [
   {
     name: "PAWs",
     description: "Social media for dogs",
-    tech: "React, Express.js, PostgreSQL",
-    img: '/images/paws.png',
+    tech: ["/images/icons/react.svg", "/images/icons/node.svg","/images/icons/postgresql.svg"],
+    img: "/images/paws.png",
   },
   {
     name: "Tool Crush",
     description: "Candy Crush Saga clone",
-    tech: "React",
-    img: '/images/tool_crush.png',
+    tech: ["/images/icons/react.svg"],
+    img: "/images/tool_crush.png",
   },
   {
     name: "Scheduler",
     description: "Candy Crush Saga clone",
-    tech: "React, Express.js, PostgreSQL",
-    img: '/images/scheduler.png',
+    tech: ["/images/icons/react.svg", "/images/icons/node.svg","/images/icons/postgresql.svg"],
+    img: "/images/scheduler.png",
   },
   {
     name: "FunkyFuuds",
     description: "Food ordering app",
-    tech: "Javascript, Express.js, PostgreSQL",
-    img: './images/funkyfuuds.png',
+    tech: ["/images/icons/js.svg", "/images/icons/node.svg","/images/icons/postgresql.svg"],
+    img: "./images/funkyfuuds.png",
   },
 ];
 
