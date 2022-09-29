@@ -6,25 +6,25 @@ const projects = [
     name: "PAWs",
     description: "Social media for dogs",
     tech: "React, Express.js, PostgreSQL",
-    img: "image_link",
+    img: '/images/paws.png',
   },
   {
     name: "Tool Crush",
     description: "Candy Crush Saga clone",
     tech: "React",
-    img: "image_link",
+    img: '/images/tool_crush.png',
   },
   {
     name: "Scheduler",
     description: "Candy Crush Saga clone",
     tech: "React, Express.js, PostgreSQL",
-    img: "image_link",
+    img: '/images/scheduler.png',
   },
   {
     name: "FunkyFuuds",
     description: "Food ordering app",
     tech: "Javascript, Express.js, PostgreSQL",
-    img: "image_link",
+    img: './images/funkyfuuds.png',
   },
 ];
 

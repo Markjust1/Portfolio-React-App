@@ -5,6 +5,7 @@ function Navigation() {
     <div className="nav">
       <h2>Welcome</h2>
       <div className="nav-items">
+        <h4>Home</h4>
         <h4>My Projects</h4>
         <h4>Tech Stack</h4>
         <h4>About Me</h4>
