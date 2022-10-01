@@ -1,12 +1,14 @@
 import Navigation from "./components/Navigation";
 import ProjectList from "./components/ProjectList";
-import './App.css';
+import About from "./components/About";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-        <Navigation />
-        <ProjectList />
+      <About />
+      <Navigation />
+      <ProjectList />
     </div>
   );
 }
