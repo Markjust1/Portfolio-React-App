@@ -1,6 +1,8 @@
+import './About.css'
+
 function About() {
   return (
-    <div>
+    <div className="me">
       Hi, I'm Artem - Full Stack Software Engineer
     </div>
   );
