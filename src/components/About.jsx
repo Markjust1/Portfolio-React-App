@@ -4,7 +4,12 @@ function About() {
   return (
     <div className="me">
       <div class="hello-parent">
-        <svg class="hello-word" width="365" height="365" viewBox="0 0 365 365">
+        <svg
+          class="hello-word"
+          width="700"
+          height="250"
+          viewBox="100 -76 300 200"
+        >
           <g id="H-letter">
             <line
               class="H-left-stroke"
@@ -84,20 +89,20 @@ function About() {
           <g id="L-one-letter">
             <line
               class="L-one-long-stroke"
-              x1="17"
-              y1="153"
-              x2="17"
-              y2="277"
+              x1="235"
+              y1="0"
+              x2="235"
+              y2="225"
               stroke="#000"
               fill="none"
               stroke-width="34"
             />
             <line
               class="L-one-short-stroke"
-              x1="33"
-              y1="260"
-              x2="77"
-              y2="260"
+              x1="250"
+              y1="107"
+              x2="293"
+              y2="107"
               stroke="#000"
               fill="none"
               stroke-width="34"
@@ -107,20 +112,20 @@ function About() {
           <g id="L-two-letter">
             <line
               class="L-two-long-stroke"
-              x1="104"
-              y1="153"
-              x2="104"
-              y2="277"
+              x1="320"
+              y1="0"
+              x2="320"
+              y2="320"
               stroke="#000"
               fill="none"
               stroke-width="34"
             />
             <line
               class="L-two-short-stroke"
-              x1="120"
-              y1="260"
-              x2="164"
-              y2="260"
+              x1="335"
+              y1="107"
+              x2="375"
+              y2="107"
               stroke="#000"
               fill="none"
               stroke-width="34"
@@ -130,8 +135,8 @@ function About() {
           <g id="O-letter">
             <circle
               class="O-stroke"
-              cx="231"
-              cy="215"
+              cx="440"
+              cy="60"
               r="48"
               stroke="#000"
               fill="none"
@@ -150,11 +155,11 @@ function About() {
             />
 
             <line
-              x1="325"
-              y1="260"
-              x2="325"
-              y2="260"
-              stroke="#FF5851"
+              x1="440"
+              y1="60"
+              x2="440"
+              y2="60"
+              stroke="#9370db"
               class="red-dot"
             />
           </g>
