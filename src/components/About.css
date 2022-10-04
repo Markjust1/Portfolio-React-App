@@ -5,5 +5,35 @@
   justify-content: center;
   height: 80vh;
   font-size: xxx-large;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Silkscreen';
+}
+
+.engineer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 300%;
+  font-family: 'Silkscreen';
+}
+
+.typing_text {
+  width: 16ch;
+  animation: typing 1.5s steps(18), blink 0.5s step-end infinite normal;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'Silkscreen';
+  font-size: 1em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }

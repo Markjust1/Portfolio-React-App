@@ -1,12 +1,18 @@
 import Hello from "./Hello";
+import Name from "./Name";
 import "./About.css";
 
 function About() {
   return (
-    <div className="me">
-      <Hello />
-      <div className="engineer">Full Stack Software Engineer</div>
-      <div className="name">Artem Novikov</div>
+    <div>
+      <div className="me">
+        <Hello />
+        <Name />
+      </div>
+      <div className="engineer">
+        <div>Full Stack</div>
+        <div className="typing_text">Software Engineer</div>
+      </div>
     </div>
   );
 }
