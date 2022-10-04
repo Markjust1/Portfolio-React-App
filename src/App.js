@@ -6,8 +6,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Navigation />
-      <About />
+      <div className="curved">
+        <Navigation />
+        <About />
+      </div>
       <ProjectList />
     </div>
   );

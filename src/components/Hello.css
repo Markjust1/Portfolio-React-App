@@ -4,17 +4,11 @@ body,
   height: 60%;
   width: 100%;
   margin: 0;
-  /* margin-top: -60px; */
+
 }
 
 .hello-parent {
   display: flex;
-
-  /* background: #fff;
-  background: -webkit-radial-gradient(#fff, #eaeaea);
-  background: -o-radial-gradient(#fff, #eaeaea);
-  background: -moz-radial-gradient(#fff, #eaeaea);
-  background: radial-gradient(#fff, #eaeaea); */
 }
 
 .hello-word {

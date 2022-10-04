@@ -1,5 +1,14 @@
 .App {
   background-color: #fcfcfc;
-  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
   font-family: 'Trocchi', serif;
+}
+
+.curved {
+  position: relative;
+  background: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+  height: 130vh;
+  border-bottom-left-radius: 50% 5%;
+  border-bottom-right-radius: 50% 5%;
+  border: 1px rgba(128, 128, 128, 0.169) solid;
 }
