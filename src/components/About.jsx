@@ -12,7 +12,7 @@ function About() {
         <Name />
       </div>
       <div className="engineer">
-        <div>Full Stack</div>
+        <div className="full-stack">Full Stack</div>
         <div className="typing_text">Software Engineer</div>
       </div>
     </div>
