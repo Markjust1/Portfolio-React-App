@@ -1,8 +1,10 @@
 import Hello from "./Hello";
+import { useState } from "react";
 import Name from "./Name";
 import "./About.css";
 
 function About() {
+
   return (
     <div>
       <div className="me">

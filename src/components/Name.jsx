@@ -3,7 +3,7 @@ import "./Name.css";
 function Name() {
   return (
     <div className="name">
-      <div>I'M ARTEM</div>
+      <div className="animate-charcter">I'M ARTEM</div>
     </div>
   );
 }
