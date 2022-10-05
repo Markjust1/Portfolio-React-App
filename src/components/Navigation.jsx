@@ -1,5 +1,6 @@
 import "./Navigation.css";
 import home from "../assets/home.png"
+import projects from "../assets/projects.png"
 
 
 function Navigation() {
@@ -7,7 +8,7 @@ function Navigation() {
     <div className="nav">
       <div className="nav-items">
         <img src={home}></img>
-        <h4>Projects</h4>
+        <img src={projects}></img>
         <h4>Tech Stack</h4>
       </div>
     </div>
