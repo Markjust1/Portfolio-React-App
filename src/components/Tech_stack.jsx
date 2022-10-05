@@ -4,15 +4,15 @@ function Tech_stack() {
   const frontend = ['React', 'Javascript', 'HTML', 'CSS'];
   const backend = ['Node.js', 'Express.js', 'PostgreSQL', 'Ruby on Rails'];
   const listStack = () => {
-    frontend.forEach(elem => {
-      return elem
+    frontend.forEach((element) => {
+      return <li>{element}</li>
     })
   }
 
   return (
     <div>
-      <ul>{<li>listStack</li>}</ul>
-      <ul>{<li>listStack</li>}</ul>
+      <ul>{listStack}</ul>
+      {/* <ul>{<li>listStack</li>}</ul> */}
     </div>
   );
 }
