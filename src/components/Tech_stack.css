@@ -3,7 +3,47 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20vh;
+  margin-top: 40vh;
   font-size: 400%;
   font-family: "Silkscreen";
+  height: 80vh;
+ 
+  background-color: blanchedalmond;
+  border-radius: 10px;
+}
+
+.first-stack {
+  margin-top: 10vh;
+  -webkit-animation: orbit2 4s linear infinite; /* Chrome, Safari 5 */
+  -moz-animation: orbit2 4s linear infinite; /* Firefox 5-15 */
+    -o-animation: orbit2 4s linear infinite; /* Opera 12+ */
+       animation: orbit2 4s linear infinite; /* Chrome, Firefox 16+, 
+                                                IE 10+, Safari 5 */
+}
+.second-stack {
+  -webkit-animation: orbit2 4s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: orbit2 4s linear infinite; /* Firefox 5-15 */
+         -o-animation: orbit2 4s linear infinite; /* Opera 12+ */
+            animation: orbit2 4s linear infinite; /* Chrome, Firefox 16+, 
+                                                     IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes orbit2 {
+	from { 	-webkit-transform: rotate(0deg) translateX(10px) rotate(0deg); }
+	to   {  -webkit-transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+}
+
+@-moz-keyframes orbit2 {
+	from { 	-moz-transform: rotate(0deg) translateX(10px) rotate(0deg); }
+	to   {  -moz-transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+}
+
+@-o-keyframes orbit2 {
+	from { 	-o-transform: rotate(0deg) translateX(10px) rotate(0deg); }
+	to   {  -o-transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+}
+
+@keyframes orbit2 {
+	from { 	transform: rotate(0deg) translateX(10px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(10px) rotate(-360deg); }
 }
