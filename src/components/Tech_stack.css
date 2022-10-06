@@ -1,0 +1,8 @@
+.tech_stack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+  font-size: 400%;
+  font-family: "Silkscreen";
+}
