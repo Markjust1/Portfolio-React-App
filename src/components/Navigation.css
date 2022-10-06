@@ -4,11 +4,12 @@
   align-content: center;
   justify-content: stretch;
   color: rgb(255, 255, 255);
-  width: 7vw;
+  width: 5vw;
   height: 100vh;
   position: fixed;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(15, 15, 15);
   font-family: "Silkscreen";
+  background-image: url("https://www.transparenttextures.com/patterns/noise-pattern-with-subtle-cross-lines.png");
 }
 
 .nav-items {
