@@ -16,18 +16,18 @@ function Tech_stack() {
       <div className="animate-charcter">My Tech Stack:</div>
       <div className="stack-container">
         <div className="first-stack">
-          <img src={html}></img>
-          <img src={css}></img>
-          <img src={js}></img>
-          <img src={react}></img>
-          <img src={ruby}></img>
+          <img src={html} className='html'></img>
+          <img src={css} className='css'></img>
+          <img src={js} className='js'></img>
+          <img src={react} className='react'></img>
+          <img src={ruby} className='ruby'></img>
         </div>
         <div className="second-stack">
-          <img src={postgresql}></img>
-          <img src={node}></img>
-          <img src={git}></img>
-          <img src={jquery}></img>
-          <img src={bootstrap}></img>
+          <img src={postgresql} className='postgresql'></img>
+          <img src={node} className='node'></img>
+          <img src={git} className='git'></img>
+          <img src={jquery} className='jquery'></img>
+          <img src={bootstrap} className='bootstrap'></img>
         </div>
       </div>
     </div>
