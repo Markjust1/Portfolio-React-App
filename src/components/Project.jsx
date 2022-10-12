@@ -2,10 +2,9 @@ import "./Project.css";
 
 function Project(props) {
 
-
   return (
     <div className="project">
-      <div className="name">{props.name}</div>
+      <div className="name-proj">{props.name}</div>
       <div className="proj_desc">
         <div className="image">
           <img src={props.image} alt="" />

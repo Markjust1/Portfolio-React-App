@@ -1,10 +1,10 @@
 .project {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 2rem;
   margin: 2rem;
-  background-color: rgba(253, 253, 253, 0.652);
+  background-color: rgb(255, 255, 255);
   border: solid rgba(109, 109, 109, 0.204) 1px;
   width: 70vw;
   height: 60vh;
@@ -12,8 +12,10 @@
   border-radius: 4px;
 }
 
-.name {
-  flex-grow: 0.5;
+.name-proj {
+  font-family: "Bungee Spice";
+  font-size: 3rem;
+  /* flex-grow: 1; */
   padding: 1rem;
 }
 .image {
