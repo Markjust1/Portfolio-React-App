@@ -1,6 +1,7 @@
 .App {
-  background-color: #221850;
+  background-color: #2d2d2d;
   font-family: 'Trocchi', serif;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
 }
 
 .curved {
