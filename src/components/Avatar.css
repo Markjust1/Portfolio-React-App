@@ -1,0 +1,13 @@
+/* .avatar-container {
+  position: relative;
+} */
+
+.avatar {
+  position: absolute;
+  transform: scale(0.2);
+  top: -700px;
+  left: -200px;
+  /* border: 5px rgba(0, 0, 0, 0.573) solid; */
+  border-radius: 50%;
+  box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.618), 0 6px 15px 8px rgba(0, 0, 0, 0.289) !important;
+}
