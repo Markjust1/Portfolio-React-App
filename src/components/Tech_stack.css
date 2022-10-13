@@ -41,6 +41,7 @@
 
 .first-stack
   div:hover
+  .html
 {
   display: flex;
   flex-direction: column;
@@ -50,6 +51,58 @@
   position: absolute;
   bottom: 170px;
   left: 20px;
+}
+.first-stack
+  div:hover
+  .css
+{
+  display: flex;
+  flex-direction: column;
+  color: coral;
+  opacity: 1;
+  font-size: 0.5em;
+  position: absolute;
+  bottom: 170px;
+  left: 25px;
+}
+.first-stack
+  div:hover
+  .react
+{
+  display: flex;
+  flex-direction: column;
+  color: coral;
+  opacity: 1;
+  font-size: 0.5em;
+  position: absolute;
+  bottom: 170px;
+  left: 5px;
+}
+.first-stack
+  div:hover
+  .js
+{
+  display: flex;
+  flex-direction: column;
+  color: coral;
+  opacity: 1;
+  font-size: 0.5em;
+  position: absolute;
+  bottom: 170px;
+  left: 37px;
+}
+.first-stack
+  div:hover
+  .ruby
+{
+  display: flex;
+  flex-direction: column;
+  color: coral;
+  opacity: 1;
+  font-size: 0.5em;
+  position: absolute;
+  bottom: 170px;
+  left: 10px;
 }
 
 .first-stack img:hover {
@@ -77,6 +130,71 @@
   transform: scale(1.2);
 }
 
+.second-stack
+  div:hover
+  .postgresql
+{
+  display: flex;
+  flex-direction: column;
+  color: coral;
+  opacity: 1;
+  font-size: 0.4em;
+  position: absolute;
+  top: 130px;
+  right: -35px;
+}
+.second-stack
+  div:hover
+  .node
+{
+  display: flex;
+  flex-direction: column;
+  color: coral;
+  opacity: 1;
+  font-size: 0.5em;
+  position: absolute;
+  top: 130px;
+  left: 10px;
+}
+.second-stack
+  div:hover
+  .git
+{
+  display: flex;
+  flex-direction: column;
+  color: coral;
+  opacity: 1;
+  font-size: 0.5em;
+  position: absolute;
+  top: 130px;
+  left: 33px;
+}
+.second-stack
+  div:hover
+  .jquery
+{
+  display: flex;
+  flex-direction: column;
+  color: coral;
+  opacity: 1;
+  font-size: 0.5em;
+  position: absolute;
+  top: 130px;
+  left: -10px;
+}
+.second-stack
+  div:hover
+  .bootstrap
+{
+  display: flex;
+  flex-direction: column;
+  color: coral;
+  opacity: 1;
+  font-size: 0.4em;
+  position: absolute;
+  top: 130px;
+  left: -17px;
+}
 
 .html {
   font-size: small;
