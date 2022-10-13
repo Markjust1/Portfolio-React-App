@@ -16,18 +16,48 @@ function Tech_stack() {
       <div className="animate-charcter">My Tech Stack:</div>
       <div className="stack-container">
         <div className="first-stack">
-          <img src={html} className='html'></img>
-          <img src={css} className='css'></img>
-          <img src={js} className='js'></img>
-          <img src={react} className='react'></img>
-          <img src={ruby} className='ruby'></img>
+          <div>
+            <div className="html">HTML</div>
+            <img src={html}></img>
+          </div>
+          <div>
+            <div className="css">CSS</div>
+            <img src={css}></img>
+          </div>
+          <div>
+            <div className="js">JS</div>
+            <img src={js}></img>
+          </div>
+          <div>
+            <div className="react">React</div>
+            <img src={react}></img>
+          </div>
+          <div>
+            <div className="ruby">Ruby</div>
+            <img src={ruby}></img>
+          </div>
         </div>
         <div className="second-stack">
-          <img src={postgresql} className='postgresql'></img>
-          <img src={node} className='node'></img>
-          <img src={git} className='git'></img>
-          <img src={jquery} className='jquery'></img>
-          <img src={bootstrap} className='bootstrap'></img>
+          <div>
+            <div className="postgresql">Postgresql</div>
+            <img src={postgresql}></img>
+          </div>
+          <div>
+            <div className="node">Node</div>
+            <img src={node}></img>
+          </div>
+          <div>
+            <div className="git">Git</div>
+            <img src={git}></img>
+          </div>
+          <div>
+            <div className="jquery">jQuery</div>
+            <img src={jquery}></img>
+          </div>
+          <div>
+            <div className="bootstrap">bootstrap</div>
+            <img src={bootstrap}></img>
+          </div>
         </div>
       </div>
     </div>

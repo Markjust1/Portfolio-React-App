@@ -1,64 +1,120 @@
+.stack-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 .tech_stack {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: auto;
   align-self: center;
-  margin-top: 40vh;
   font-size: 400%;
   font-family: "Silkscreen";
-  height: 80vh;
+  height: 70vh;
   width: 60vw;
+  min-width: 400px;
   background-color: rgb(255, 235, 205);
   border-radius: 10px;
+  margin-top: 20vh;
+}
+
+.tech_stack div {
+  margin: 3px;
 }
 
 .first-stack {
-  margin-top: 10vh;
-  -webkit-animation: orbit2 4s linear infinite; /* Chrome, Safari 5 */
-  -moz-animation: orbit2 4s linear infinite; /* Firefox 5-15 */
-  -o-animation: orbit2 4s linear infinite; /* Opera 12+ */
-  animation: orbit2 4s linear infinite; /* Chrome, Firefox 16+, 
-                                                IE 10+, Safari 5 */
+  display: flex;
+  flex-direction: row;
+}
+.second-stack {
+  display: flex;
+  flex-direction: row;
+}
+.first-stack div {
+  position: relative;
+}
+.second-stack div {
+  position: relative;
 }
 
-.first-stack img {
-  margin: 10px;
+.first-stack
+  div:hover
+{
+  display: flex;
+  flex-direction: column;
+  color: coral;
+  opacity: 1;
+  font-size: 0.5em;
+  position: absolute;
+  bottom: 170px;
+  left: 20px;
 }
+
 .first-stack img:hover {
   transform: scale(1.2);
 }
-.second-stack {
-  -webkit-animation: orbit2 4s linear infinite; /* Chrome, Safari 5 */
-  -moz-animation: orbit2 4s linear infinite; /* Firefox 5-15 */
-  -o-animation: orbit2 4s linear infinite; /* Opera 12+ */
-  animation: orbit2 4s linear infinite; /* Chrome, Firefox 16+, 
-  IE 10+, Safari 5 */
-}
-.second-stack img {
-  margin: 10px;
+
+.second-stack
+  div:hover
+  .html
+  .css
+  .js
+  .react
+  .jquery
+  .bootstrap
+  .postgresql
+  .git
+  .ruby
+  .node {
+  color: coral;
+  text-align: center;
+  opacity: 1;
+  font-size: 0.5em;
 }
 .second-stack img:hover {
   transform: scale(1.2);
 }
-/* 
-@-webkit-keyframes orbit2 {
-	from { 	-webkit-transform: rotate(0deg) translateX(10px) rotate(0deg); }
-	to   {  -webkit-transform: rotate(360deg) translateX(10px) rotate(-360deg); }
-}
 
-@-moz-keyframes orbit2 {
-	from { 	-moz-transform: rotate(0deg) translateX(10px) rotate(0deg); }
-	to   {  -moz-transform: rotate(360deg) translateX(10px) rotate(-360deg); }
-}
 
-@-o-keyframes orbit2 {
-	from { 	-o-transform: rotate(0deg) translateX(10px) rotate(0deg); }
-	to   {  -o-transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+.html {
+  font-size: small;
+  opacity: 0;
 }
-
-@keyframes orbit2 {
-	from { 	transform: rotate(0deg) translateX(10px) rotate(0deg); }
-	to   {  transform: rotate(360deg) translateX(10px) rotate(-360deg); }
-} */
+.css {
+  font-size: small;
+  opacity: 0;
+}
+.js {
+  font-size: small;
+  opacity: 0;
+}
+.react {
+  font-size: small;
+  opacity: 0;
+}
+.git {
+  font-size: small;
+  opacity: 0;
+}
+.node {
+  font-size: small;
+  opacity: 0;
+}
+.bootstrap {
+  font-size: small;
+  opacity: 0;
+}
+.postgresql {
+  font-size: small;
+  opacity: 0;
+}
+.jquery {
+  font-size: small;
+  opacity: 0;
+}
+.ruby {
+  font-size: small;
+  opacity: 0;
+}
