@@ -18,45 +18,45 @@ function Tech_stack() {
         <div className="first-stack">
           <div>
             <div className="html">HTML</div>
-            <img src={html}></img>
+            <img src={html} alt="html"></img>
           </div>
           <div>
             <div className="css">CSS</div>
-            <img src={css}></img>
+            <img src={css} alt="css"></img>
           </div>
           <div>
             <div className="js">JS</div>
-            <img src={js}></img>
+            <img src={js} alt="js"></img>
           </div>
           <div>
             <div className="react">React</div>
-            <img src={react}></img>
+            <img src={react} alt="react.js"></img>
           </div>
           <div>
             <div className="ruby">Ruby</div>
-            <img src={ruby}></img>
+            <img src={ruby} alt="Ruby"></img>
           </div>
         </div>
         <div className="second-stack">
           <div>
             <div className="postgresql">Postgresql</div>
-            <img src={postgresql}></img>
+            <img src={postgresql} alt="Postgresql"></img>
           </div>
           <div>
             <div className="node">Node</div>
-            <img src={node}></img>
+            <img src={node} alt="Node"></img>
           </div>
           <div>
             <div className="git">Git</div>
-            <img src={git}></img>
+            <img src={git} alt="Git"></img>
           </div>
           <div>
             <div className="jquery">jQuery</div>
-            <img src={jquery}></img>
+            <img src={jquery} alt="jQuery"></img>
           </div>
           <div>
             <div className="bootstrap">bootstrap</div>
-            <img src={bootstrap}></img>
+            <img src={bootstrap} alt="Bootstrap"></img>
           </div>
         </div>
       </div>
