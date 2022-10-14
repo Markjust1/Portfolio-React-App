@@ -7,9 +7,9 @@ function Navigation() {
   return (
     <div className="nav">
       <div className="nav-items">
-        <img src={home}></img>
-        <img src={tech}></img>
-        <img src={projects}></img>
+        <img src={home} alt=''></img>
+        <img src={tech} alt=''></img>
+        <img src={projects} alt=''></img>
       </div>
     </div>
   );
