@@ -1,13 +1,53 @@
-/* .avatar-container {
-  position: relative;
-} */
-
 .avatar {
-  position: absolute;
-  transform: scale(0.2);
-  top: -700px;
-  left: -200px;
-  /* border: 5px rgba(0, 0, 0, 0.573) solid; */
-  border-radius: 50%;
-  box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.618), 0 6px 15px 8px rgba(0, 0, 0, 0.289) !important;
+  position: relative;
+  margin-top: 50px;
+  width: 500px;
+    /* height: auto; */
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
+  animation: clipOut 2s linear;
+  border-radius: 10px;
+  box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.618), 0 6px 15px 8px rgba(0, 0, 0, 0.289);
+}
+
+@keyframes clipOut {
+  from {
+    clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%);
+  }
+}
+@keyframes clipUp {
+  from {
+    clip-path: polygon(0% 50%, 0% 50%, 0% 50%, 0% 50%, 0% 50%, 50% 0%, 50% 0%);
+  }
+}
+
+@keyframes clipUp3 {
+  from {
+    clip-path: polygon(80% 20%, 70% 20%, 60% 20%, 50% 20%, 40% 20%, 30% 20%, 30% 20%, 40% 20%, 50% 20%, 60% 20%, 70% 20%, 80% 20%);
+  }
+}
+
+@keyframes clipUp4 {
+  from {
+    clip-path: polygon(100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%);
+  }
+}
+
+@keyframes clipUp5 {
+  from {
+    clip-path: polygon(50% 50%, 50% 50%, 50% 50%);
+  }
+}
+
+@keyframes clipUp6 {
+  from {
+    clip-path: polygon(25% 25%, 50% 50%, 75% 75%, 100% 100%);
+  }
 }

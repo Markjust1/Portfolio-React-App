@@ -1,15 +1,15 @@
 .App {
-  background-color: #ffffffe2;
+  /* background-color: #ffffffe2; */
   font-family: 'Trocchi', serif;
   background-image: url("../public/images/background.jpeg");
   background-size: 100% 50%;
 }
 
 .curved {
-  position: relative;
   background: #ffffff;
   background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
-  height: 130vh;
+  height: 110vh;
+  width: 100%;
   border-bottom-left-radius: 50% 5%;
   border-bottom-right-radius: 50% 5%;
   border: 1px rgba(128, 128, 128, 0.169) solid;

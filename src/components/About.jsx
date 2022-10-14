@@ -1,17 +1,16 @@
 import Hello from "./Hello";
 import Name from "./Name";
+import Avatar from "./Avatar";
+import Engineer from "./Engineer";
 import "./About.css";
 
 function About() {
   return (
-    <div>
-      <div className="me">
+    <div className="me">
         <Hello />
+        <Avatar />
         <Name />
-      </div>
-      <div className="engineer">
-        <div className="typing_text">Full Stack Software Engineer</div>
-      </div>
+        <Engineer />
     </div>
   );
 }

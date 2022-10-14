@@ -1,10 +1,8 @@
-html,
-body,
 .hello-parent {
-  height: 60%;
+  height: 50%;
   width: 100%;
   margin: 0;
-
+  min-width: 510px;
 }
 
 .hello-parent {

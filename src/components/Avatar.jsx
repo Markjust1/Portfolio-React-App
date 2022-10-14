@@ -1,9 +1,9 @@
 import "./Avatar.css";
-import artem from "../assets/artem.png";
+import artem from "../assets/Artem.jpg";
 
 function Avatar() {
   return (
-    <div className="avatar-container">
+    <div>
       <img className="avatar" src={artem} alt="artem" />
     </div>
   );

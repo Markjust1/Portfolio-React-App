@@ -12,7 +12,7 @@ function App() {
         <About />
       </div>
       <Tech_stack />
-      <ProjectList />
+      <ProjectList /> 
     </div>
   );
 }

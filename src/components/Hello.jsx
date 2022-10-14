@@ -149,7 +149,7 @@ function Hello() {
             cx="325"
             cy="260"
             r="20"
-            fill="#FF5851"
+            fill="#5f1f94"
             stroke="none"
           />
 
@@ -158,7 +158,7 @@ function Hello() {
             y1="60"
             x2="440"
             y2="60"
-            stroke="#9370db"
+            stroke="#5f1f94"
             className="red-dot"
           />
         </g>
