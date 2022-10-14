@@ -7,4 +7,5 @@
   width: 100%; 
   margin: auto;
   font-family: "Silkscreen";
+  min-width: 540px;
 }
