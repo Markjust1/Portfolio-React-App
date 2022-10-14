@@ -17,6 +17,7 @@
   margin-top: 30px;
   justify-content: stretch;
   transform: scale(0.7);
+  cursor: pointer;
 }
 
 .nav-items img:hover {

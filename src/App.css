@@ -1,15 +1,12 @@
-/* html {
+body {
   margin: 0px;
-  border: 0px;
-  padding: 0px;
-} */
+}
 
 .App {
   font-family: "Trocchi", serif;
   background-size: 100% 50%;
   background-image: url("../public/images/background.jpeg");
-  width:101vw;
-  margin: auto;
+  background-size: contain;
 }
 
 .curved {

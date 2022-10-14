@@ -4,8 +4,9 @@
   align-items: center;
   justify-content: space-around;
   height: 90vh;
-  width: 100%; 
+  width: 60vw; 
   margin: auto;
   font-family: "Silkscreen";
   min-width: 540px;
+  top: 50px;
 }
