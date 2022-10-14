@@ -1,4 +1,4 @@
-import "./Tech_stack.css";
+import "./TechStack.css";
 import js from "../assets/js.svg";
 import css from "../assets/css.svg";
 import html from "../assets/html.svg";
@@ -10,7 +10,7 @@ import bootstrap from "../assets/bootstrap.svg";
 import postgresql from "../assets/postgresql.svg";
 import node from "../assets/node.svg";
 
-function Tech_stack() {
+function TechStack() {
   return (
     <div className="tech_stack">
       <div className="animate-charcter">My Tech Stack:</div>
@@ -64,4 +64,4 @@ function Tech_stack() {
   );
 }
 
-export default Tech_stack;
+export default TechStack;
