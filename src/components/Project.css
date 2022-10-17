@@ -7,9 +7,10 @@
   background-color: rgb(255, 255, 255);
   border: solid rgba(150, 150, 150, 0.204) 4px;
   width: 50vw;
-  height: 500px;
+  height: 600px;
   border-radius: 2px;
-  min-height: 600px;
+  min-height: 650px;
+  min-width: 500px;
 }
 
 .name-proj {
@@ -24,8 +25,11 @@
   padding: 1rem;
 }
 .image img {
-  /* width: 30vw; */
+  display: flex;
   height: 25vw;
+  min-height: 250px;
+  margin: auto;
+  max-height: 400px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
