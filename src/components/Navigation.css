@@ -125,3 +125,30 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   transform: rotate(-135deg);
   margin-top: -9px;
 }
+
+.home {
+  position: absolute;
+  font-family: "Silkscreen";
+  left: 40px;
+  top: 10px;
+  text-shadow: 2px 2px 2px #ffffff;
+}
+
+.tch{
+  width: 100px;
+  position: absolute;
+  text-align: center;
+  word-wrap: none;
+  font-family: "Silkscreen";
+  left: 12px;
+  top: 120px;
+  text-shadow: 2px 2px 2px #ffffff;
+}
+
+.projects {
+  position: absolute;
+  font-family: "Silkscreen";
+  left: 20px;
+  top: 270px;
+  text-shadow: 2px 2px 2px #ffffff;
+}

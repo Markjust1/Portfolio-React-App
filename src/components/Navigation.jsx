@@ -1,12 +1,15 @@
-import * as Scroll from 'react-scroll';
+import { useState } from "react";
+import Scroll from "react-scroll";
 import home from "../assets/home.png";
 import projects from "../assets/projects.png";
 import tech from "../assets/tech.png";
 import "./Navigation.css";
 
 function Navigation() {
-  var Scroll = require('react-scroll');
   var scroll = Scroll.animateScroll;
+  const [hm, setHm] = useState(false);
+  const [tch, setTch] = useState(false);
+  const [proj, setProj] = useState(false);
   return (
     <div>
       <div className="header"></div>
@@ -18,14 +21,44 @@ function Navigation() {
       </label>
       <div id="sidebarMenu">
         <ul className="sidebarMenuInner">
-          <li>
-            <img src={home} alt="" onClick={() => { scroll.scrollTo(0)}} />
+          <li
+            onMouseEnter={() => setHm(true)}
+            onMouseLeave={() => setHm(false)}
+          >
+            <img
+              src={home}
+              alt=""
+              onClick={() => {
+                scroll.scrollTo(0);
+              }}
+            />
+            {hm && (<div className="home">Home</div>)}
           </li>
-          <li>
-            <img src={tech} alt="" onClick={() => { scroll.scrollTo(1150)}}/>
+          <li
+            onMouseEnter={() => setTch(true)}
+            onMouseLeave={() => setTch(false)}
+          >
+            <img
+              src={tech}
+              alt=""
+              onClick={() => {
+                scroll.scrollTo(1150);
+              }}
+            />
+            {tch && (<div className="tch">Tech Stack</div>)}
           </li>
-          <li>
-            <img src={projects} alt="" onClick={() => { scroll.scrollTo(2100)}}/>
+          <li
+            onMouseEnter={() => setProj(true)}
+            onMouseLeave={() => setProj(false)}
+          >
+            <img
+              src={projects}
+              alt=""
+              onClick={() => {
+                scroll.scrollTo(2100);
+              }}
+            />
+            {proj && (<div className="projects">Projects</div>)}
           </li>
         </ul>
       </div>
