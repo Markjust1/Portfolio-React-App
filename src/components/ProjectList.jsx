@@ -4,25 +4,25 @@ import "./ProjectList.css";
 const projects = [
   {
     name: "PAWs",
-    description: "Social media for dogs",
+    description: "A social app that matches and links dogs, and their owners, for walks and play-dates. Matches are made based on detailed user profiles.",
     tech: ["/images/icons/react.svg", "/images/icons/node.svg","/images/icons/postgresql.svg"],
     img: "/images/paws.png",
   },
   {
     name: "Tool Crush",
-    description: "Candy Crush Saga clone",
+    description: "A mini-game frontend app build with React (Candy Crush Saga style). Players need to get as many points as they can in 30 seconds",
     tech: ["/images/icons/react.svg"],
     img: "/images/tool_crush.png",
   },
   {
     name: "Scheduler",
-    description: "Candy Crush Saga clone",
+    description: "Application built with React that allows users to book, cancel and edit their appointments.",
     tech: ["/images/icons/react.svg", "/images/icons/node.svg","/images/icons/postgresql.svg"],
     img: "/images/scheduler.png",
   },
   {
     name: "FunkyFuuds",
-    description: "Food ordering app",
+    description: "Full Stack food-ordering app built with Vanilla JS and Express.js.",
     tech: ["/images/icons/js.svg", "/images/icons/node.svg","/images/icons/postgresql.svg"],
     img: "./images/funkyfuuds.png",
   },

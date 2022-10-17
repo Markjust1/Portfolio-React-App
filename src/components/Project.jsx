@@ -4,12 +4,13 @@ function Project(props) {
   return (
     <div className="project">
       <div className="name-proj">{props.name}</div>
-      <div className="description">{props.description}</div>
       <div className="proj_desc">
         <div className="image">
           <img src={props.image} alt="" />
         </div>
-        <div>
+      </div>
+      <div className="description">{props.description}</div>
+        <div className="tech-container">
           <div className="tech">
             <img src={props.tech[0]} alt=""></img>
           </div>
@@ -20,7 +21,6 @@ function Project(props) {
             <img src={props.tech[2]} alt=""></img>
           </div>
         </div>
-      </div>
     </div>
   );
 }

@@ -5,11 +5,11 @@
   padding: 2rem;
   margin: 2rem;
   background-color: rgb(255, 255, 255);
-  border: solid rgba(109, 109, 109, 0.204) 1px;
+  border: solid rgba(150, 150, 150, 0.204) 4px;
   width: 50vw;
-  height: 60vh;
-  border-radius: 3px;
-  border-radius: 4px;
+  height: 500px;
+  border-radius: 2px;
+  min-height: 600px;
 }
 
 .name-proj {
@@ -17,10 +17,10 @@
   font-size: 3rem;
   /* flex-grow: 1; */
   padding: 1rem;
+  text-align: center;
 }
 .image {
   flex-grow: 4;
-  /* border: 1px solid black; */
   padding: 1rem;
 }
 .image img {
@@ -29,18 +29,30 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: gray;
+  /* background-color: gray; */
+  border: solid rgba(150, 150, 150, 0.412) 3px;
+  border-radius: 15px;
 }
 .description {
+  border: solid rgba(150, 150, 150, 0.204) 3px;
   flex-grow: 2;
   padding: 1rem;
+  font-family: "Silkscreen";
 }
 .tech {
   flex-grow: 0.5;
   padding: 1rem;
+  text-align: center;
 }
 .proj_desc {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.tech-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
 }
