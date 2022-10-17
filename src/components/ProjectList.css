@@ -23,4 +23,6 @@
   margin-bottom: 30px;
   font-size: 400%;
   font-family: "Silkscreen";
+  min-width: 400px;
+  white-space: nowrap;
 }

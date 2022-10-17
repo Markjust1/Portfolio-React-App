@@ -22,7 +22,7 @@ const projects = [
   },
   {
     name: "FunkyFuuds",
-    description: "Full Stack food-ordering app built with Vanilla JS and Express.js.",
+    description: "Full Stack food-ordering app built with Vanilla JS and Express.js. Connected to Twilio API to send text messages when the order is ready",
     tech: ["/images/icons/js.svg", "/images/icons/node.svg","/images/icons/postgresql.svg"],
     img: "./images/funkyfuuds.png",
   },
