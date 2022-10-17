@@ -1,6 +1,25 @@
 .project-list {
+  padding-top: 150px;
+  margin: auto;
+  width: 80vw;
+  background-color: #ffffff;
+  border-radius: 10px;
+  background-image: url("https://www.transparenttextures.com/patterns/worn-dots.png");
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.projects-title {
+  position: relative;
+  margin: auto;
+  top: 170px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 400%;
+  font-family: "Silkscreen";
 }

@@ -31,17 +31,22 @@ const projects = [
 function ProjectList() {
   const projList = projects.map((proj) => {
     return (
-      <Project
-        key={proj.name}
-        name={proj.name}
-        description={proj.description}
-        tech={proj.tech}
-        image={proj.img}
-      />
+        <Project
+          key={proj.name}
+          name={proj.name}
+          description={proj.description}
+          tech={proj.tech}
+          image={proj.img}
+        />
     );
   });
 
-  return <main className="project-list">{projList}</main>;
+  return (
+    <div>
+      <div className="projects-title">My Projects</div>
+      <main className="project-list">{projList}</main>;
+    </div>
+  );
 }
 
 export default ProjectList;

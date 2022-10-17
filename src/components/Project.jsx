@@ -11,13 +11,13 @@ function Project(props) {
         </div>
         <div>
           <div className="tech">
-            <img src={props.tech[0]}></img>
+            <img src={props.tech[0]} alt=""></img>
           </div>
           <div className="tech">
-            <img src={props.tech[1]}></img>
+            <img src={props.tech[1]} alt=""></img>
           </div>
           <div className="tech">
-            <img src={props.tech[2]}></img>
+            <img src={props.tech[2]} alt=""></img>
           </div>
         </div>
       </div>

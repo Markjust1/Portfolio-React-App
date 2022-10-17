@@ -42,7 +42,7 @@ function Navigation() {
               src={tech}
               alt=""
               onClick={() => {
-                scroll.scrollTo(1150);
+                scroll.scrollTo(1050);
               }}
             />
             {tch && (<div className="tch">Tech Stack</div>)}
@@ -55,7 +55,7 @@ function Navigation() {
               src={projects}
               alt=""
               onClick={() => {
-                scroll.scrollTo(2100);
+                scroll.scrollTo(2000);
               }}
             />
             {proj && (<div className="projects">Projects</div>)}

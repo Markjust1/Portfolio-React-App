@@ -1,10 +1,5 @@
-.stack-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
 .tech_stack {
-  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+  background-image: url("https://www.transparenttextures.com/patterns/worn-dots.png");
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,11 +11,13 @@
   height: 70vh;
   width: 60vw;
   min-width: 400px;
+  max-width: 35vw;
   background-color: rgb(255, 255, 255);
   border: 2px solid rgba(106, 105, 105, 0.628);;
   border-radius: 10px;
   margin-top: 20vh;
   margin-bottom: 20vh;
+  min-width: 700px;
 }
 
 .tech_stack div {
