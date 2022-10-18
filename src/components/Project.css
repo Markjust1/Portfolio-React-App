@@ -12,6 +12,9 @@
   min-height: 650px;
   min-width: 500px;
 }
+.project:hover {
+  transform: scale(1.01);
+}
 
 .name-proj {
   font-family: "Bungee Spice";

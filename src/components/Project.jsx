@@ -1,8 +1,12 @@
 import "./Project.css";
 
 function Project(props) {
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
   return (
-    <div className="project">
+    <div className="project" onClick={() => openInNewTab(props.link)}>
       <div className="name-proj">{props.name}</div>
       <div className="proj_desc">
         <div className="image">
