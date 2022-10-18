@@ -21,6 +21,7 @@ function Footer() {
       </div>
       <div className="footer-end">
         <div>Artem Novikov</div>
+        <div>novikov711@gmail.com</div>
         <div>2022</div>
         </div>
     </div>
