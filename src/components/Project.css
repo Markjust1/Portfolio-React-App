@@ -43,8 +43,9 @@
 .description {
   border: solid rgba(150, 150, 150, 0.204) 3px;
   flex-grow: 2;
-  padding: 1rem;
+  padding: 1.8rem;
   font-family: "Silkscreen";
+  color: #474747c7;
 }
 .tech {
   flex-grow: 0.5;

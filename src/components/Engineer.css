@@ -4,12 +4,12 @@
   align-items: center;
   font-size: 170%;
   font-family: "Silkscreen";
-  color: black;
+  color: #474747c7;
 }
 
 .typing_text {
   width: 26ch;
-  animation: typing 2s steps(30), blink 0.5s step-end infinite normal;
+  animation: typing 2s steps(29), blink 0.5s infinite;
   white-space: nowrap;
   overflow: auto;
   border-right: 3px solid;
