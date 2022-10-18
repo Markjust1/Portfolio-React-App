@@ -11,7 +11,7 @@ const projects = [
   {
     name: "Tool Crush",
     description: "A mini-game frontend app build with React (Candy Crush Saga style). Players need to get as many points as they can in 30 seconds",
-    tech: ["/images/icons/react.svg"],
+    tech: ['', "/images/icons/react.svg", ''],
     img: "/images/tool_crush.png",
   },
   {

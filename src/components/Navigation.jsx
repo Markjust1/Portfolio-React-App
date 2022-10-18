@@ -3,6 +3,7 @@ import Scroll from "react-scroll";
 import home from "../assets/home.png";
 import projects from "../assets/projects.png";
 import tech from "../assets/tech.png";
+import connect from "../assets/connect.png"
 import "./Navigation.css";
 
 function Navigation() {
@@ -10,6 +11,7 @@ function Navigation() {
   const [hm, setHm] = useState(false);
   const [tch, setTch] = useState(false);
   const [proj, setProj] = useState(false);
+  const [conn, setConn] = useState(false);
   return (
     <div>
       <div className="header"></div>
@@ -59,6 +61,19 @@ function Navigation() {
               }}
             />
             {proj && (<div className="projects">Projects</div>)}
+          </li>
+          <li
+            onMouseEnter={() => setConn(true)}
+            onMouseLeave={() => setConn(false)}
+          >
+            <img
+              src={connect}
+              alt=""
+              onClick={() => {
+                scroll.scrollTo(4850);
+              }}
+            />
+            {conn && (<div className="connect">Connect</div>)}
           </li>
         </ul>
       </div>

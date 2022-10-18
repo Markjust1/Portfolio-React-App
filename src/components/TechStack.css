@@ -9,16 +9,15 @@
   font-size: 400%;
   font-family: "Silkscreen";
   height: 70vh;
-  width: 60vw;
+  width: 65vw;
   min-height: 500px;
-  min-width: 500px;
+  min-width: 750px;
   max-width: 35vw;
   background-color: rgb(255, 255, 255);
   border: 2px solid rgba(106, 105, 105, 0.628);;
   border-radius: 10px;
   margin-top: 20vh;
   margin-bottom: 20vh;
-  min-width: 700px;
 }
 
 .tech_stack div {

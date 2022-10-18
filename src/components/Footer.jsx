@@ -13,7 +13,7 @@ function Footer() {
           <span onClick={() => openInNewTab('https://www.linkedin.com/in/artnovikov/')}>LinkedIn</span>
         </div>
         <div className="item">
-          <span onClick={() => openInNewTab('https://www.instagram.com/markjust1/')}>Instagram</span>
+          <span onClick={() => openInNewTab('https://github.com/Markjust1')}>Github</span>
         </div>
         <div className="item">
           <span onClick={() => openInNewTab('https://www.facebook.com/artem.novikov.3348/')}>Facebook</span>

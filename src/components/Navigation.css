@@ -153,3 +153,11 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   top: 270px;
   text-shadow: 2px 2px 2px #ffffff;
 }
+
+.connect {
+  position: absolute;
+  font-family: "Silkscreen";
+  left: 21px;
+  top: 400px;
+  text-shadow: 2px 2px 2px #ffffff;
+}
