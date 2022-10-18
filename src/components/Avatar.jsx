@@ -1,5 +1,5 @@
 import "./Avatar.css";
-import artem from "../assets/Artem.jpg";
+import artem from "../assets/Artem.jpeg";
 
 function Avatar() {
   return (
