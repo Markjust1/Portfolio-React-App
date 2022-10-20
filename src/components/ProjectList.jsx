@@ -30,6 +30,27 @@ const projects = [
     img: "./images/funkyfuuds.png",
     link: "https://github.com/Markjust1/FunkyFuuds"
   },
+  {
+    name: "Jungle",
+    description: "A mini e-commerce application built with Ruby on Rails",
+    tech: ["/images/icons/node.svg", "/images/icons/ruby.svg","/images/icons/postgresql.svg"],
+    img: "./images/jungle.png",
+    link: "https://github.com/Markjust1/jungle-rails"
+  },
+  {
+    name: "Tweeter",
+    description: "Single-page app which is a twitter clone built with Vanilla JS",
+    tech: ["/images/icons/js.svg", "","/images/icons/node.svg"],
+    img: "./images/tweeter.png",
+    link: "https://github.com/Markjust1/tweeter"
+  },
+  {
+    name: "Tiny App",
+    description: "Full stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly).",
+    tech: ["/images/icons/js.svg", "","/images/icons/node.svg"],
+    img: "./images/tiny_app.png",
+    link: "https://github.com/Markjust1/tinyapp"
+  },
 ];
 
 function ProjectList() {
