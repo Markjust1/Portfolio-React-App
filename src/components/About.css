@@ -10,3 +10,33 @@
   min-width: 540px;
   margin-top: -50px;
 }
+
+@media only screen and (max-width: 768px) {
+  .me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 90vh;
+    width: 60vw; 
+    margin: auto;
+    font-family: "Silkscreen";
+    margin-top: -50px;
+  }
+}
+
+/* small screens */
+@media only screen and (min-width: 600px) {
+  .me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 600px;
+    height: 90vh;
+    width: 60vw; 
+    margin: auto;
+    font-family: "Silkscreen";
+    margin-top: -50px;
+  }
+}

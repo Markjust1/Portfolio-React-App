@@ -10,12 +10,12 @@ function App() {
   return (
     <div className="App">
       <div className="curved">
-        <Navigation />
+        {/* <Navigation /> */}
         <About />
       </div>
-      <TechStack />
-      <ProjectList />
-      <Footer/>
+      {/* <TechStack /> */}
+      {/* <ProjectList /> */}
+      {/* <Footer/> */}
     </div>
   );
 }
