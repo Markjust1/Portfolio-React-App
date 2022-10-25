@@ -1,3 +1,4 @@
+@media only screen and (min-width: 600px) {
 .tech_stack {
   background-image: url("https://www.transparenttextures.com/patterns/worn-dots.png");
   display: flex;
@@ -19,10 +20,10 @@
   margin-top: 20vh;
   margin-bottom: 20vh;
 }
-
 .tech_stack div {
   margin: 3px;
 }
+
 
 .first-stack {
   display: flex;
@@ -40,8 +41,8 @@
 }
 
 .first-stack
-  div:hover
-  .html
+div:hover
+.html
 {
   display: flex;
   flex-direction: column;
@@ -52,6 +53,7 @@
   bottom: 170px;
   left: 20px;
 }
+
 .first-stack
   div:hover
   .css
@@ -236,7 +238,7 @@
   font-size: small;
   opacity: 0;
 }
-
+}
 
 @media only screen and (max-width: 600px) {
   .tech_stack {
@@ -244,20 +246,252 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin: auto;
     align-self: center;
     font-size: 400%;
     font-family: "Silkscreen";
-    height: 70vh;
-    width: 65vw;
-    /* min-height: 500px;
-    min-width: 750px; */
-    max-width: 35vw;
+    height: 1000px;
+    width: 80vw;
     background-color: rgb(255, 255, 255);
     border: 1px solid #00000011;
     border-radius: 10px;
-    margin-top: 20vh;
+    margin-top: 5vh;
     margin-bottom: 20vh;
   }
+  .tech_stack div {
+    margin: 3px;
+  }
+  
+  .stack-container {
+    display: flex;
+    transform: scale(0.7);
+    
+  }
+  
+  .tech_stack .animate-charcter {
+   text-align: center;
+    width: 80vw;
+    transform: scale(0.7);
+    position: relative;
+    top: 100px;
+  }
+  .first-stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 110%
+  }
+  .second-stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 110%
+  }
+  .first-stack div {
+    position: relative;
+  }
+  .second-stack div {
+    position: relative;
+  }
+  
+  /* .first-stack
+  div:hover
+  .html
+  {
+    display: flex;
+    flex-direction: column;
+    color: coral;
+    opacity: 1;
+    font-size: 0.5em;
+    position: absolute;
+    bottom: 170px;
+    left: 20px;
+  }
+  
+  .first-stack
+    div:hover
+    .css
+  {
+    display: flex;
+    flex-direction: column;
+    color: coral;
+    opacity: 1;
+    font-size: 0.5em;
+    position: absolute;
+    bottom: 170px;
+    left: 25px;
+  }
+  .first-stack
+    div:hover
+    .react
+  {
+    display: flex;
+    flex-direction: column;
+    color: coral;
+    opacity: 1;
+    font-size: 0.5em;
+    position: absolute;
+    bottom: 170px;
+    left: 5px;
+  }
+  .first-stack
+    div:hover
+    .js
+  {
+    display: flex;
+    flex-direction: column;
+    color: coral;
+    opacity: 1;
+    font-size: 0.5em;
+    position: absolute;
+    bottom: 170px;
+    left: 37px;
+  }
+  .first-stack
+    div:hover
+    .ruby
+  {
+    display: flex;
+    flex-direction: column;
+    color: coral;
+    opacity: 1;
+    font-size: 0.5em;
+    position: absolute;
+    bottom: 170px;
+    left: 10px;
+  }
+  
+  .first-stack img:hover {
+    transform: scale(1.2);
+  }
+  
+  .second-stack
+    div:hover
+    .html
+    .css
+    .js
+    .react
+    .jquery
+    .bootstrap
+    .postgresql
+    .git
+    .ruby
+    .node {
+    color: coral;
+    text-align: center;
+    opacity: 1;
+    font-size: 0.5em;
+  }
+  .second-stack img:hover {
+    transform: scale(1.2);
+  }
+  
+  .second-stack
+    div:hover
+    .postgresql
+  {
+    display: flex;
+    flex-direction: column;
+    color: coral;
+    opacity: 1;
+    font-size: 0.4em;
+    position: absolute;
+    top: 130px;
+    right: -35px;
+  }
+  .second-stack
+    div:hover
+    .node
+  {
+    display: flex;
+    flex-direction: column;
+    color: coral;
+    opacity: 1;
+    font-size: 0.5em;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+  }
+  .second-stack
+    div:hover
+    .git
+  {
+    display: flex;
+    flex-direction: column;
+    color: coral;
+    opacity: 1;
+    font-size: 0.5em;
+    position: absolute;
+    top: 130px;
+    left: 33px;
+  }
+  .second-stack
+    div:hover
+    .jquery
+  {
+    display: flex;
+    flex-direction: column;
+    color: coral;
+    opacity: 1;
+    font-size: 0.5em;
+    position: absolute;
+    top: 130px;
+    left: -10px;
+  }
+  .second-stack
+    div:hover
+    .bootstrap
+  {
+    display: flex;
+    flex-direction: column;
+    color: coral;
+    opacity: 1;
+    font-size: 0.4em;
+    position: absolute;
+    top: 130px;
+    left: -17px;
+  }
+  */
+  
+  .html {
+    font-size: small;
+    opacity: 0;
+  }
+  .css {
+    font-size: small;
+    opacity: 0;
+  }
+  .js {
+    font-size: small;
+    opacity: 0;
+  }
+  .react {
+    font-size: small;
+    opacity: 0;
+  }
+  .git {
+    font-size: small;
+    opacity: 0;
+  }
+  .node {
+    font-size: small;
+    opacity: 0;
+  }
+  .bootstrap {
+    font-size: small;
+    opacity: 0;
+  }
+  .postgresql {
+    font-size: small;
+    opacity: 0;
+  }
+  .jquery {
+    font-size: small;
+    opacity: 0;
+  }
+  .ruby {
+    font-size: small;
+    opacity: 0;
+  } 
 }
