@@ -1,3 +1,4 @@
+@media only screen and (min-width: 768px) {
 .me {
   display: flex;
   flex-direction: column;
@@ -10,6 +11,8 @@
   min-width: 540px;
   margin-top: -50px;
 }
+}
+
 
 @media only screen and (max-width: 768px) {
   .me {
@@ -26,15 +29,14 @@
 }
 
 /* small screens */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   .me {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    min-width: 600px;
-    height: 90vh;
-    width: 60vw; 
+    height: 80vh;
+    width: 100%; 
     margin: auto;
     font-family: "Silkscreen";
     margin-top: -50px;
