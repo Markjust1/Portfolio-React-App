@@ -70,7 +70,7 @@ function Navigation() {
               src={connect}
               alt=""
               onClick={() => {
-                scroll.scrollTo(4850);
+                scroll.scrollTo(7850);
               }}
             />
             {conn && (<div className="connect">Connect</div>)}

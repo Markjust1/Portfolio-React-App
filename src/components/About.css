@@ -35,10 +35,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 80vh;
+    height: 70vh;
     width: 100%; 
     margin: auto;
     font-family: "Silkscreen";
-    margin-top: -50px;
   }
 }

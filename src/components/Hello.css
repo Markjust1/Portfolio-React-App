@@ -297,15 +297,29 @@
 @media only screen and (max-width: 600px) {
   .hello-parent {
     position: relative;
-    top: 50px;
+    top: 10px;
     height: 40%;
     width: 60%;
-    margin: 0;
-    /* min-width: 510px; */
+    margin: 15px;
   }
 
   .hello-parent {
-    transform: scale(0.6);
+    transform: scale(0.7);
   }
 
+}
+
+/* Galaxy fold */
+@media only screen and (max-width: 280px) {
+  .hello-parent {
+    position: relative;
+    top: 10px;
+    height: 40%;
+    width: 60%;
+    margin: 15px;
+  }
+
+  .hello-parent {
+    transform: scale(0.4);
+  }
 }
