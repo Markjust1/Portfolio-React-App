@@ -70,7 +70,7 @@ function ProjectList() {
   return (
     <div>
       <div className="projects-title">My Projects</div>
-      <main className="project-list">{projList}</main>;
+      <main className="project-list">{projList}</main>
     </div>
   );
 }

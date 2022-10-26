@@ -6,7 +6,7 @@
     cursor: pointer;
     pointer-events: none;
     height: 270px;
-    width: 100%;
+    width: 99.4%;
     font-family: "Silkscreen";
     font-size: 1.5rem;
     background: #ffffff;
@@ -147,6 +147,7 @@ span {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 @media only screen and (max-width: 600px) {
   .menu {
     text-transform: uppercase;
@@ -155,7 +156,7 @@ span {
     cursor: pointer;
     pointer-events: none;
     height: 30vh;
-    width: 100%;
+    width: 98%;
     font-family: "Silkscreen";
     font-size: 1rem;
     background: #ffffff;
