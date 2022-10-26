@@ -50,6 +50,9 @@
     font-family: "Trocchi", serif;
     background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
   }
   
   .curved {
