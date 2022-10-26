@@ -105,3 +105,26 @@
       0 6px 15px 8px rgba(0, 0, 0, 0.289);
   }
 }
+
+/* Nest Hub */
+@media only screen and (width: 1024px) {
+  .avatar {
+    position: relative;
+    bottom: 40px;
+    width: 30vw;
+    height: auto;
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 75%,
+      75% 75%,
+      75% 100%,
+      50% 75%,
+      0% 75%
+    );
+    animation: clipOut 1s linear;
+    border-radius: 10px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.618),
+      0 6px 15px 8px rgba(0, 0, 0, 0.289);
+  }
+}

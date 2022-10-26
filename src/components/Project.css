@@ -1,72 +1,72 @@
 @media only screen and (min-width: 600px) {
-.project {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 2rem;
-  margin: 2rem;
-  background-color: rgb(255, 255, 255);
-  border: solid rgba(150, 150, 150, 0.204) 4px;
-  width: 50vw;
-  height: 600px;
-  border-radius: 4px;
-  min-height: 650px;
-  min-width: 500px;
-}
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgb(255, 255, 255);
+    border: solid rgba(150, 150, 150, 0.204) 4px;
+    width: 50vw;
+    height: 600px;
+    border-radius: 4px;
+    min-height: 650px;
+    min-width: 500px;
+  }
 
-.project:hover {
-  transform: scale(1.01);
-}
+  .project:hover {
+    transform: scale(1.01);
+  }
 
-.name-proj {
-  font-family: "Bungee Spice";
-  font-size: 3rem;
-  /* flex-grow: 1; */
-  padding: 1rem;
-  text-align: center;
-}
-.image {
-  flex-grow: 4;
-  padding: 1rem;
-}
+  .name-proj {
+    font-family: "Bungee Spice";
+    font-size: 3rem;
+    /* flex-grow: 1; */
+    padding: 1rem;
+    text-align: center;
+  }
+  .image {
+    flex-grow: 4;
+    padding: 1rem;
+  }
 
-.image img {
-  display: flex;
-  height: 25vw;
-  min-height: 250px;
-  margin: auto;
-  max-height: 400px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  /* background-color: gray; */
-  border: solid rgba(150, 150, 150, 0.412) 3px;
-  border-radius: 15px;
-}
-.description {
-  border: solid rgba(150, 150, 150, 0.204) 3px;
-  flex-grow: 2;
-  padding: 1.8rem;
-  font-family: "Silkscreen";
-  color: #474747c7;
-}
-.tech {
-  flex-grow: 0.5;
-  padding: 1rem;
-  text-align: center;
-}
-.proj_desc {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
+  .image img {
+    display: flex;
+    height: 25vw;
+    min-height: 250px;
+    margin: auto;
+    max-height: 400px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: gray; */
+    border: solid rgba(150, 150, 150, 0.412) 3px;
+    border-radius: 15px;
+  }
+  .description {
+    border: solid rgba(150, 150, 150, 0.204) 3px;
+    flex-grow: 2;
+    padding: 1.8rem;
+    font-family: "Silkscreen";
+    color: #474747c7;
+  }
+  .tech {
+    flex-grow: 0.5;
+    padding: 1rem;
+    text-align: center;
+  }
+  .proj_desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
-.tech-container {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
-}
+  .tech-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -81,11 +81,11 @@
     width: 65vw;
     border-radius: 4px;
   }
-  
+
   .project:hover {
     transform: scale(1.01);
   }
-  
+
   .name-proj {
     font-family: "Bungee Spice";
     font-size: 2.4rem;
@@ -97,7 +97,7 @@
     flex-grow: 4;
     padding: 1rem;
   }
-  
+
   .image img {
     display: flex;
     width: 66vw;
@@ -132,17 +132,28 @@
     flex-direction: row;
     justify-content: space-around;
   }
-  
+
   .tech-container {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
   }
-  }
+}
 
-  /* Galaxy fold */
+/* Galaxy fold */
 @media only screen and (max-width: 280px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgb(255, 255, 255);
+    border: solid rgba(150, 150, 150, 0.204) 4px;
+    width: 60vw;
+    border-radius: 4px;
+  }
   .name-proj {
     font-family: "Bungee Spice";
     font-size: 1.5rem;

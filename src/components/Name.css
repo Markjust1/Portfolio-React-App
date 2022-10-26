@@ -52,3 +52,15 @@
     font-size: 2em;
   }
 }
+
+
+/* Nest Hub */
+@media only screen and (width: 1024px) {
+  .name {
+    position: relative;
+    font-family: "Bungee Spice";
+    font-size: 2.5em;
+    bottom: 40px;
+    text-align: center;
+  }
+}

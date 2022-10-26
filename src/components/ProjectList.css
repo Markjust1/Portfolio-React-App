@@ -1,33 +1,33 @@
 @media only screen and (min-width: 600px) {
-.project-list {
-  padding-top: 150px;
-  margin: auto;
-  width: 80vw;
-  min-width: 700px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  background-image: url("https://www.transparenttextures.com/patterns/worn-dots.png");
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border: 1px solid #00000011;
-}
+  .project-list {
+    padding-top: 150px;
+    margin: auto;
+    width: 80vw;
+    min-width: 700px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    background-image: url("https://www.transparenttextures.com/patterns/worn-dots.png");
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #00000011;
+  }
 
-.projects-title {
-  position: relative;
-  margin: auto;
-  top: 170px;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 400%;
-  font-family: "Silkscreen";
-  min-width: 400px;
-  white-space: nowrap;
-}
+  .projects-title {
+    position: relative;
+    margin: auto;
+    top: 170px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 400%;
+    font-family: "Silkscreen";
+    min-width: 400px;
+    white-space: nowrap;
+  }
 }
 @media only screen and (max-width: 600px) {
   .project-list {

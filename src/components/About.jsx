@@ -7,10 +7,10 @@ import "./About.css";
 function About() {
   return (
     <div className="me">
-        <Hello />
-        <Avatar />
-        <Name />
-        <Engineer />
+      <Hello />
+      <Avatar />
+      <Name />
+      <Engineer />
     </div>
   );
 }

@@ -306,7 +306,6 @@
   .hello-parent {
     transform: scale(0.7);
   }
-
 }
 
 /* Galaxy fold */
@@ -321,5 +320,20 @@
 
   .hello-parent {
     transform: scale(0.4);
+  }
+}
+
+/* Nest Hub */
+@media only screen and (width: 1024px) {
+  .hello-parent {
+    position: relative;
+    top: 10px;
+    height: 40%;
+    width: 60%;
+    margin: 15px;
+  }
+
+  .hello-parent {
+    transform: scale(0.6);
   }
 }
