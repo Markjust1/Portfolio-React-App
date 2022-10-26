@@ -15,7 +15,7 @@ function App() {
       </div>
       <TechStack />
       <ProjectList />
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
