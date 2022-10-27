@@ -21,7 +21,9 @@
   .name-proj {
     font-family: "Bungee Spice";
     font-size: 3rem;
-    /* flex-grow: 1; */
+    display: flex;
+    align-self: center;
+    justify-content: center;
     padding: 1rem;
     text-align: center;
   }
@@ -87,9 +89,12 @@
   }
 
   .name-proj {
+    display: flex;
+    align-self: center;
+    justify-content: center;
     font-family: "Bungee Spice";
     font-size: 2.4rem;
-    /* flex-grow: 1; */
+    width: 70vw;
     padding: 1rem;
     text-align: center;
   }
@@ -157,7 +162,9 @@
   .name-proj {
     font-family: "Bungee Spice";
     font-size: 1.5rem;
-    /* flex-grow: 1; */
+    display: flex;
+    align-self: center;
+    justify-content: center;
     padding: 1rem;
     text-align: center;
   }
