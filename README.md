@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# My portfolio project created with the help of React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It incorporates all the major projects I have either built or collaborated in.
+
+Deployed website [link](https://artnovikov.com/).
 
 ## Available Scripts
 
