@@ -3,6 +3,13 @@ import "./ProjectList.css";
 
 const projects = [
   {
+    name: "Project 42",
+    description: "E-commerce site where users can list and sell in-game items. Built with React.JS, Express.JS and MongoDB",
+    tech: ["/images/icons/react.svg", "/images/icons/node.svg","/images/icons/mongodb.svg"],
+    img: "/images/project42.png",
+    link: "https://github.com/Markjust1/Project-42"
+  },
+  {
     name: "PAWs",
     description: "A social app that matches and links dogs, and their owners, for walks and play-dates. Matches are made based on detailed user profiles.",
     tech: ["/images/icons/react.svg", "/images/icons/node.svg","/images/icons/postgresql.svg"],
