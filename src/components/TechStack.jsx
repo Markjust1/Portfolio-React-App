@@ -9,6 +9,7 @@ import jquery from "../assets/jquery.svg";
 import bootstrap from "../assets/bootstrap.svg";
 import postgresql from "../assets/postgresql.svg";
 import node from "../assets/node.svg";
+import mongodb from "../assets/mongodb.svg";
 
 function TechStack() {
   return (
@@ -50,13 +51,17 @@ function TechStack() {
             <div className="git">Git</div>
             <img src={git} alt="Git"></img>
           </div>
-          <div>
+          {/* <div>
             <div className="jquery">jQuery</div>
             <img src={jquery} alt="jQuery"></img>
-          </div>
+          </div> */}
           <div>
             <div className="bootstrap">bootstrap</div>
             <img src={bootstrap} alt="Bootstrap"></img>
+          </div>
+          <div>
+            <div className="mongodb">mongodb</div>
+            <img src={mongodb} alt="MongoDB"></img>
           </div>
         </div>
       </div>

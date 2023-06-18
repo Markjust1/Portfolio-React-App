@@ -10,9 +10,9 @@
     font-size: 400%;
     font-family: "Silkscreen";
     height: 70vh;
-    width: 65vw;
+    width: 85vw;
     min-height: 500px;
-    min-width: 750px;
+    min-width: 900px;
     max-width: 35vw;
     background-color: rgb(255, 255, 255);
     border: 1px solid #00000011;
@@ -106,7 +106,8 @@
     .postgresql
     .git
     .ruby
-    .node {
+    .node
+    .mongodb {
     color: coral;
     text-align: center;
     opacity: 1;
@@ -166,6 +167,16 @@
     top: 130px;
     left: -17px;
   }
+  .second-stack div:hover .mongodb {
+    display: flex;
+    flex-direction: column;
+    color: coral;
+    opacity: 1;
+    font-size: 0.4em;
+    position: absolute;
+    top: 140px;
+    left: -10px;
+  }
 
   .html {
     font-size: small;
@@ -204,6 +215,10 @@
     opacity: 0;
   }
   .ruby {
+    font-size: small;
+    opacity: 0;
+  }
+  .mongodb {
     font-size: small;
     opacity: 0;
   }
